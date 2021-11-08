@@ -1,0 +1,61 @@
+h1 {
+  font-size: 20px;
+}
+.topimg {
+  height: 210px;
+  width: 100px;
+  object-fit: cover;
+  margin: 0.5rem;
+  border-radius: 10px;
+}
+.flex-container {
+  display: flex;
+}
+.btn {
+  background-color: red;
+  color: white;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+select {
+  box-shadow: none;
+  border-color: red;
+}
+.filter {
+  display: flex;
+}
+.cart-icon {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.cart-icon .shopping-icon {
+    width: 24px;
+    height: 24px;
+}
+.cart-icon .item-count {
+    position: absolute;
+    font-size: 10px;
+    font-weight: bold;
+    bottom: 12px;
+}
+
+
+
+
+html{
+    background: #000;
+    filter: invert(1) hue-rotate(180deg);
+}
+    
+img,video,iframe,canvas.svg{
+    filter: invert(1) hue-rotate(180deg);
+}
